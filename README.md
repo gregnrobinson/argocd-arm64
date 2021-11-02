@@ -6,5 +6,5 @@ Deploys ArgoCD using linux/arm64 images
 
 ```bash
 kubectl create ns argocd
-kubectl apply  -n argocd -k .
+kubectl apply -n argocd -k .
 ```
