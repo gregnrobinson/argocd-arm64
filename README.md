@@ -5,5 +5,5 @@ Deploys ArgoCD using linux/arm64 images
 ## Install
 
 ```bash
-kubectl apply -k .
+kubectl apply  -n argocd -k .
 ```
